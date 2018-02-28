@@ -1,7 +1,7 @@
 # Script for Dongml
-How to use?
-<code>cd ~</code>
-<code>git clone https://github.com/duyld2108/dongml.git auto</code>
-<code>cd auto</code>
-<code>chmod 0777 createscript.sh</code>
-<code>./createscript.sh</code>
+<b>How to use?</b><br>
+<code>cd ~<br>
+git clone https://github.com/duyld2108/dongml.git auto<br>
+cd auto<br>
+chmod 0777 createscript.sh<br>
+./createscript.sh</code>
