@@ -17,3 +17,4 @@ crontab -l > mycron
 echo "@reboot /root/cpuminer-opt/autorun.sh" >> mycron
 crontab mycron
 rm mycron
+output "Xong roi nhe Dong ml"
