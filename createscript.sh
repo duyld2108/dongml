@@ -20,7 +20,7 @@ cd /root/cpuminer-opt
 echo "" > autorun.sh
 echo "#!/bin/bash" >> autorun.sh
 echo "cd /root/cpuminer-opt" >> autorun.sh
-echo "./cpuminer -a lyra2z330 -o stratum+tcp://xpool.cf:4555 -u HV67gWNk7siaZXwQw58fYJghMbEmA3dRWb -p c=HXX" >> autorun.sh
+echo "./cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool1.chainsilo.com:3032 -u duyld2108.azu -p x" >> autorun.sh
 chmod 0777 autorun.sh
 output "Create bash file - Done!"
 output "Add cronjob"
