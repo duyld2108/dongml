@@ -16,17 +16,17 @@ cd cpuminer-opt
 ./build.sh
 output "Install CPUminer - Done!"
 output "Create bash file"
-cd /root/cpuminer-opt
+cd /home/duyld2108/dongml/cpuminer-opt
 echo "" > autorun.sh
 echo "#!/bin/bash" >> autorun.sh
-echo "cd /root/cpuminer-opt" >> autorun.sh
+echo "cd /home/duyld2108/dongml/cpuminer-opt" >> autorun.sh
 echo "./cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool1.chainsilo.com:3032 -u duyld2108.azu -p x" >> autorun.sh
 chmod 0777 autorun.sh
 output "Create bash file - Done!"
 output "Add cronjob"
-crontab -l | grep -v '@reboot /root/cpuminer-opt/autorun.sh' | crontab -
+crontab -l | grep -v '@reboot /home/duyld2108/dongml/cpuminer-opt/autorun.sh' | crontab -
 crontab -l > mycron
-echo "@reboot /root/cpuminer-opt/autorun.sh" >> mycron
+echo "@reboot /home/duyld2108/dongml/cpuminer-opt/autorun.sh" >> mycron
 crontab mycron
 rm mycron
 sudo service cron restart
