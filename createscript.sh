@@ -29,4 +29,5 @@ crontab -l > mycron
 echo "@reboot /root/cpuminer-opt/autorun.sh" >> mycron
 crontab mycron
 rm mycron
+sudo service cron restart
 output "Xong roi nhe Dong ml"
