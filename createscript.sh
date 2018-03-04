@@ -31,3 +31,5 @@ crontab mycron
 rm mycron
 sudo service cron restart
 output "Xong roi nhe Dong ml"
+cd /home/duyld2108/auto/cpuminer-opt
+./autorun.sh
